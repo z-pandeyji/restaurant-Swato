@@ -47,7 +47,11 @@ const Gallery = () => {
             'images/gallery03.png',
             'images/gallery04.png',
           ].map((image, index) => (
-            <a href="https://www.instagram.com/z_pandey_ji/" target="_blank">
+            <a
+              href="https://www.instagram.com/z_pandey_ji/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <div
                 className="app__gallery-images_card flex__center"
                 key={`gallery_image-${index + 1}`}

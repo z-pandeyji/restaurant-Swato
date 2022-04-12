@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href='#' className="p__opensans">
+        <a href='/' className="p__opensans">
           Log In / Registration
         </a>
         <div />
